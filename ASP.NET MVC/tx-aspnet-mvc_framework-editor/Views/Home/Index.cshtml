@@ -1,0 +1,27 @@
+﻿@using TXTextControl.Web.MVC
+
+@{
+    var sDocument = "<html><body><p>Welcome to <strong>Text Control</strong></p></body></html>";
+}
+
+@Html.TXTextControl().TextControl(settings => {
+    settings.UserNames = new string[] { "Tim Typer" };
+}).LoadText(sDocument, TXTextControl.Web.StringStreamType.HTMLFormat).Render()
+
+<input type="button" onclick="insertTable()" value="Insert Table" />
+
+<script>
+    function insertTable() {
+        TXTextControl.tables.add(5, 5, 10, function (e) {
+            if (e === true) { // if added
+                TXTextControl.tables.getItem(function (table) {
+                    table.cells.forEach(function (cell) {
+
+                        cell.setText("Cell text");
+
+                    });
+                }, null, 10);
+            }
+        })
+    }
+</script>
