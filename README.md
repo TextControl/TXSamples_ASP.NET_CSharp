@@ -11,7 +11,7 @@ This repository is part of the [TX Text Control .NET Sample Collection](https://
 In order to use these samples, the following software is required:
 
 - The latest version of [TX Text Control .NET Server for ASP.NET](https://www.textcontrol.com/products/asp-dotnet/tx-text-control-dotnet-server/overview/).
-- [Visual Studio](https://visualstudio.microsoft.com/de/downloads/) (preferably the latest version).
+- [Visual Studio](https://visualstudio.microsoft.com/downloads/) (preferably the latest version).
 
 ## About the samples
 
