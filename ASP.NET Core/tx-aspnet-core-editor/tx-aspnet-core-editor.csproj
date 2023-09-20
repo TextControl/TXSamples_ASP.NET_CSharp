@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="TXTextControl.Web" Version="31.*" />
+    <PackageReference Include="TXTextControl.Web" Version="32.*" />
   </ItemGroup>
 
 </Project>

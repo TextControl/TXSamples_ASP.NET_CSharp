@@ -165,20 +165,20 @@
     <Reference Include="System.Web.Optimization">
       <HintPath>packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
     </Reference>
-    <Reference Include="TXDocumentServer, Version=31.0.1700.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
+    <Reference Include="TXDocumentServer, Version=32.0.1800.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 31.0.NET Server for ASP.NET\Assembly\TXDocumentServer.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 32.0.NET Server for ASP.NET\Assembly\TXDocumentServer.dll</HintPath>
     </Reference>
-    <Reference Include="TXTextControl, Version=31.0.2400.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
+    <Reference Include="TXTextControl, Version=32.0.2500.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 31.0.NET Server for ASP.NET\Assembly\TXTextControl.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 32.0.NET Server for ASP.NET\Assembly\TXTextControl.dll</HintPath>
     </Reference>
-    <Reference Include="TXTextControl.Server, Version=31.0.1600.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
+    <Reference Include="TXTextControl.Server, Version=32.0.1700.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 31.0.NET Server for ASP.NET\Assembly\TXTextControl.Server.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 32.0.NET Server for ASP.NET\Assembly\TXTextControl.Server.dll</HintPath>
     </Reference>
-    <Reference Include="TXTextControl.Web.MVC.DocumentViewer, Version=31.3.1.0, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
-      <HintPath>packages\TXTextControl.Web.DocumentViewer.31.3.1\lib\net45\TXTextControl.Web.MVC.DocumentViewer.dll</HintPath>
+    <Reference Include="TXTextControl.Web.MVC.DocumentViewer, Version=32.0.1.0, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
+      <HintPath>packages\TXTextControl.Web.DocumentViewer.32.0.1\lib\net45\TXTextControl.Web.MVC.DocumentViewer.dll</HintPath>
     </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>
