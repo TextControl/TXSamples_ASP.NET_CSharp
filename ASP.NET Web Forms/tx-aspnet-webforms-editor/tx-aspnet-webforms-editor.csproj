@@ -81,9 +81,9 @@
     <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
       <HintPath>packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
     </Reference>
-    <Reference Include="TXTextControl.Web, Version=31.0.1100.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
+    <Reference Include="TXTextControl.Web, Version=32.0.1200.500, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 31.0.NET Server for ASP.NET\Assembly\TXTextControl.Web.dll</HintPath>
+      <HintPath>..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 32.0.NET Server for ASP.NET\Assembly\TXTextControl.Web.dll</HintPath>
     </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>

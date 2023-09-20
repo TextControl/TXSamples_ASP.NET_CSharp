@@ -16,17 +16,6 @@ if (!app.Environment.IsDevelopment())
 app.UseHttpsRedirection();
 app.UseStaticFiles();
 
-
-// serve static linked files (JavaScript and CSS for the editor)
-app.UseStaticFiles(new StaticFileOptions
-{
-    FileProvider = new Microsoft.Extensions.FileProviders.PhysicalFileProvider(
-       System.IO.Path.Combine(System.IO.Path.GetDirectoryName(
-           System.Reflection.Assembly.GetEntryAssembly().Location),
-           "TXTextControl.Web")),
-    RequestPath = "/TXTextControl.Web"
-});
-
 // enable Web Sockets
 app.UseWebSockets();
 

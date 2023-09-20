@@ -109,6 +109,9 @@
     <Reference Include="TXTextControl.Web, Version=31.4.0.0, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
       <HintPath>packages\TXTextControl.Web.31.4.0\lib\net45\TXTextControl.Web.dll</HintPath>
     </Reference>
+    <Reference Include="TXTextControl.Web.DocumentEditor, Version=32.0.0.0, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
+      <HintPath>packages\TXTextControl.Web.32.0.0\lib\net45\TXTextControl.Web.DocumentEditor.dll</HintPath>
+    </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>
       <HintPath>packages\WebGrease.1.6.0\lib\WebGrease.dll</HintPath>
@@ -129,7 +132,6 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
-    <Compile Include="Controllers\TXWebSocketController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -196,12 +198,6 @@
     <Content Include="Scripts\jquery.validate.unobtrusive.js" />
     <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
     <Content Include="Scripts\modernizr-2.8.3.js" />
-    <Content Include="TXTextControl.Web\CSS\jquery-ui.css" />
-    <Content Include="TXTextControl.Web\CSS\main.min.css" />
-    <Content Include="TXTextControl.Web\JS\ThirdParty\jquery-ui.min.js" />
-    <Content Include="TXTextControl.Web\JS\ThirdParty\jquery.min.js" />
-    <Content Include="TXTextControl.Web\JS\ThirdParty\jquery.ui.touch-punch.min.js" />
-    <Content Include="TXTextControl.Web\JS\tx.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
