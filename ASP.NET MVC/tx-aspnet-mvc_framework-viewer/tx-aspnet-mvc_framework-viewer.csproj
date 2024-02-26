@@ -177,8 +177,8 @@
       <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\..\Program Files\Text Control GmbH\TX Text Control 32.0.NET Server for ASP.NET\Assembly\TXTextControl.Server.dll</HintPath>
     </Reference>
-    <Reference Include="TXTextControl.Web.MVC.DocumentViewer, Version=32.0.1.0, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
-      <HintPath>packages\TXTextControl.Web.DocumentViewer.32.0.1\lib\net45\TXTextControl.Web.MVC.DocumentViewer.dll</HintPath>
+    <Reference Include="TXTextControl.Web.MVC.DocumentViewer, Version=32.1.1.0, Culture=neutral, PublicKeyToken=6b83fe9a75cfb638, processorArchitecture=MSIL">
+      <HintPath>packages\TXTextControl.Web.DocumentViewer.32.2.0\lib\net45\TXTextControl.Web.MVC.DocumentViewer.dll</HintPath>
     </Reference>
     <Reference Include="WebGrease">
       <Private>True</Private>
