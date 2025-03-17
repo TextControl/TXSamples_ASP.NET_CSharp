@@ -3,13 +3,13 @@
 
 <div style="width: 800px; height: 600px;">
 
-    @Html.TXTextControl().DocumentViewer(settings => {
-        settings.DocumentData = Convert.ToBase64String(
-            Encoding.ASCII.GetBytes("<strong>Sample Content</strong>"));
-        settings.Dock = DocumentViewerSettings.DockStyle.Fill;
-    }).Render()
+@Html.TXTextControl().DocumentViewer(settings => {
+    settings.DocumentData = Convert.ToBase64String(
+        Encoding.ASCII.GetBytes("<strong>Sample Content</strong>"));
+    settings.Dock = DocumentViewerSettings.DockStyle.Fill;
+}).Render()
 
-</div>
+ </div>
 
 <script>
 

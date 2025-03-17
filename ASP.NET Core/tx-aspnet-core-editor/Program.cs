@@ -1,3 +1,5 @@
+using TXTextControl.Web;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
@@ -20,7 +22,7 @@ app.UseStaticFiles();
 app.UseWebSockets();
 
 // attach the Text Control WebSocketHandler middleware
-app.UseMiddleware<TXTextControl.Web.WebSocketMiddleware>();
+app.UseTXWebSocketMiddleware();
 
 app.UseRouting();
 
